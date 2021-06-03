@@ -61,7 +61,6 @@ app.use((request, response, next) => {
 });
 
 app.use((err, request, response, next) => {
-  
   console.error(err);
   const status = err.status || 500;
   if (status == 500) {
@@ -73,7 +72,7 @@ app.use((err, request, response, next) => {
   response.render('error');
 });
 
-app.use('/.netlify/functions/server', expessRoutes);
+app.use('/.netlify/functions/app', expessRoutes);
 app.use('/', (req, res) => res.sendFile(path.join(__dirname, '../index.html')));
 
 module.exports = app;

@@ -2,7 +2,7 @@
   "name": "Informative-website",
   "version": "1.0.0",
   "description": "A informative Website with Node.js and Express",
-  "main": "app.js",
+  "main": "functions/app.js",
   "scripts": {
     "build": "netlify-lambda build src",
     "start": "node server.js",

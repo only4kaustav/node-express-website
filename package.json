@@ -4,8 +4,8 @@
   "description": "A informative Website with Node.js and Express",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon --ignore feedback.json app.js"
+    "start": "node server.js",
+    "dev": "nodemon --ignore feedback.json server.js"
   },
   "keywords": [],
   "license": "MIT",
@@ -24,6 +24,7 @@
     "ejs": "^2.7.1",
     "express": "^4.17.1",
     "express-validator": "^6.2.0",
-    "http-errors": "^1.7.3"
+    "http-errors": "^1.7.3",
+    "serverless-http": "^2.7.0"
   }
 }

@@ -1,5 +1,6 @@
 const express = require('express');
 const path = require('path');
+const serverless = require('serverless-http');
 const cookieSession = require('cookie-session');
 const createError = require('http-errors');
 const bodyParser = require('body-parser');
@@ -17,8 +18,6 @@ const app = express();
 app.locals.siteName = 'Lavanese';
 app.locals.siteSlogan = 'The ultimate cake shop';
 app.locals.currentYear = new Date().getFullYear();
-
-const port = 3000;
 
 app.set('trust proxy', 1);
 
@@ -72,6 +71,7 @@ app.use((err, request, response, next) => {
   response.render('error');
 });
 
-app.listen(port, () => {
-  console.log(`Express server listening on port ${port}!`);
-});
+app.use('/.netlify/functions/server', routes);
+
+module.exports = app;
+module.exports.handler = serverless(app);

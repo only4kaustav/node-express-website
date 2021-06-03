@@ -1,0 +1,15 @@
+<% if(related_products && related_products.length) {%>
+<div class="related-products">
+  <h2 class="productlist-title">Related Products</h2>
+  <p class="productlist-info">
+    You may also like:
+  </p>
+  <div class="fancybox-grid">
+    <% related_products.forEach(function(product) {%>
+    <a href="<%=product.image%>" data-fancybox="related-product-gallery" data-caption='<a href="/products/<%=product.shortname%>" target="_blank"><%=product.title%></a>'>
+      <img src="<%=product.image%>" alt="<%=product.title%>" width="150" height="150"/>
+    </a>
+    <% }) %>
+  </div>
+</div>
+<% } %>

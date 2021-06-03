@@ -1,0 +1,20 @@
+<% if(topProducts && topProducts.length) { %>
+<article class="productlist jumbotron d-none d-sm-block">
+  <div class="container">
+  <h2 class="text-center font-weight-bold pb-3">Top cakes of the month</h2>
+    <div class="row">
+      <% topProducts.forEach(function(product) {%>
+      <div class="col-md text-center">
+        <h4 class="productlist-title"><a href="/products/<%=product.shortname%>"><%=product.title%></a></h4>
+        <p class="productlist-info mt-2">
+          
+          <a href="<%=product.image%>" data-fancybox="top-product" data-caption='<a href="/products/<%=product.shortname%>" target="_blank"><%=product.title%></a>'>
+            <img class="productlist-img rounded-circle" src="<%=product.image%>" alt="<%=product.title%>" width="200" height="200"/>
+          </a>
+        </p>
+      </div>
+      <%})%>
+    </div>
+  </div>
+</article>
+<% } %>

@@ -1,0 +1,142 @@
+{
+  "products": [
+    {
+      "title": "Choco Vanilla Cake",
+      "shortname": "choco-vanilla-cake",
+      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "description": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p><p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>",
+      "sizes": "1 pound, 1/2 pound",
+      "ingredients": "flour, sugar, eggs, butter, baking soda.",
+      "image": "/images/products/chocolate-vanilla-cake.png",
+      "top": true,
+      "related": [
+        "giant-cupcake",
+        "angel-food-cake",
+        "popcorn-cake"
+      ],
+      "gallery": [
+        "Chocolate-Truffle-Cake-frosting-scaled.jpg",
+        "Collage_Fotor.jpg",
+        "cup-cake.jpg",
+        "eclair-cake-process.jpg",
+        "Making-Mango-Jam-Cake.jpg"
+      ]
+    },
+    {
+      "title": "Giant Cupcake",
+      "shortname": "giant-cupcake",
+      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "description": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p><p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>",
+      "sizes": "2 pound, 1 pound",
+      "ingredients": "flour, sugar, eggs, oil, baking powder.",
+      "image": "/images/products/giant-cupcake.jpg",
+      "top": true,
+      "related": [
+        "panda-bear-cake",
+        "angel-food-cake"
+      ],
+      "gallery": [
+        "marble_cake_oil.jpg",
+        "orio-cake.jpg",
+        "Turning-Cake-Out-of-The-Pan.jpg",
+        "Vanilla-Custard-Cake.jpg",
+        "vegan-carrot-cake-collage.jpg",
+        "Chocolate-Truffle-Cake-frosting-scaled.jpg",
+        "Collage_Fotor.jpg"
+      ]
+    },
+    {
+      "title": "Angel Food Cake",
+      "shortname": "angel-food-cake",
+      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "description": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p><p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>",
+      "sizes": "2 pound, 3 pound",
+      "ingredients": "flour, sugar, curd, ghee, baking powder.",
+      "image": "/images/products/angel-food-cake.jpg",
+      "top": true,
+      "related": [
+        "popcorn-cake",
+        "angel-food-cake"
+      ],
+      "gallery": [
+        "cup-cake.jpg",
+        "eclair-cake-process.jpg",
+        "Making-Mango-Jam-Cake.jpg",
+        "marble_cake_oil.jpg",
+        "orio-cake.jpg",
+        "Turning-Cake-Out-of-The-Pan.jpg"
+      ]
+    },
+    {
+      "title": "Panda Bear Cake",
+      "shortname": "panda-bear-cake",
+      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "description": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p><p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>",
+      "sizes": "2 pound, 3 pound",
+      "ingredients": "flour, sugar, curd, ghee, baking powder.",
+      "image": "/images/products/panda-bear-cake.jpg",
+      "top": false,
+      "related": [
+        "giant-cupcake",
+        "angel-food-cake",
+        "panda-bear-cake",
+        "rainbow-cake"
+      ],
+      "gallery": [
+        "Vanilla-Custard-Cake.jpg",
+        "vegan-carrot-cake-collage.jpg",
+        "Chocolate-Truffle-Cake-frosting-scaled.jpg",
+        "eclair-cake-process.jpg",
+        "marble_cake_oil.jpg",
+        "Turning-Cake-Out-of-The-Pan.jpg"
+      ]
+    },
+    {
+      "title": "Popcorn Cake",
+      "shortname": "popcorn-cake",
+      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "description": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p><p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>",
+      "sizes": "2 pound, 3 pound",
+      "ingredients": "flour, sugar, curd, ghee, baking powder.",
+      "image": "/images/products/popcorn-cake.jpg",
+      "top": false,
+      "related": [
+        "giant-cupcake",
+        "angel-food-cake",
+        "panda-bear-cake",
+        "rainbow-cake"
+      ],
+      "gallery": [
+        "Collage_Fotor.jpg",
+        "eclair-cake-process.jpg",
+        "Making-Mango-Jam-Cake.jpg",
+        "marble_cake_oil.jpg",
+        "Turning-Cake-Out-of-The-Pan.jpg",
+        "Vanilla-Custard-Cake.jpg"
+      ]
+    },
+    {
+      "title": "Rainbow Cake",
+      "shortname": "rainbow-cake",
+      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "description": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p><p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>",
+      "sizes": "2 pound, 3 pound",
+      "ingredients": "flour, sugar, curd, ghee, baking powder.",
+      "image": "/images/products/rainbow-cake.jpg",
+      "top": true,
+      "related": [
+        "giant-cupcake",
+        "angel-food-cake",
+        "panda-bear-cake"
+      ],
+      "gallery": [
+        "vegan-carrot-cake-collage.jpg",
+        "cup-cake.jpg",
+        "Collage_Fotor.jpg",
+        "eclair-cake-process.jpg",
+        "marble_cake_oil.jpg",
+        "Vanilla-Custard-Cake.jpg"
+      ]
+    }
+  ]
+}

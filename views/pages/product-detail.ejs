@@ -1,0 +1,27 @@
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-md-8">
+      <article class="productlist maincontent">
+        <h1 class="productlist-title"><%=product.title%></h1>
+        <p class="productlist-info mt-2">
+          <img
+            class="productlist-img img-fluid"
+            src="<%=product.image%>"
+            alt="Photo of <%=product.title%>"
+          />
+        </p>
+        <%-product.description%>
+        <p class="productlist-info mt-2">
+          <strong>Ingredients:</strong> <%=product.ingredients%>
+        </p>
+        <p class="productlist-info mt-2">
+          <strong>Size(s):</strong> <%=product.sizes%>
+        </p>
+        <%- include('./partials/relatedProducts') %>
+      </article>
+    </div>
+    <aside class="col-md-4">
+      <%- include('./partials/gallery') %>
+    </aside>
+  </div>
+</div>

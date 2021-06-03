@@ -1,0 +1,13 @@
+<article class="sidebar">
+  <h1 class="sidebar-title">Random clicks</h1>
+  <p class="sidebar-body">
+    While you navigate our website you can checkout few random clicks.
+  </p>
+  <div class="fancybox-grid">
+    <% gallerys.forEach(function(item, key) {%>
+    <a href="/images/gallery/<%=item%>" data-fancybox="random-click-gallery">
+      <img src="/images/gallery/<%=item%>" alt="Gallery <%=key%>"/>
+    </a>
+    <% }) %>
+  </div>
+</article>

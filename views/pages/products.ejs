@@ -1,0 +1,34 @@
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-sm-8">
+      <article class="productlist maincontent">
+        <% products.forEach(function (product) {%>
+        <div class="mb-4">
+          <h4 class="productlist-title"><%=product.title%></h4>
+          <div class="productlist-name">
+            with
+            <a href="/products/<%=product.shortname%>"><%=product.title%></a>
+          </div>
+          <div class="row productlist-info mt-2">
+            <div class="col-sm-3">
+              <a href="/products/<%=product.shortname%>">
+                <img
+                  class="productlist-img rounded-circle img-fluid"
+                  src="<%=product.image%>"
+                  alt="Photo of <%=product.title%>"
+                />
+              </a>
+            </div>
+            <div class="col-sm-9">
+              <%=product.summary%>
+            </div>
+          </div>
+        </div>
+        <%})%>
+      </article>
+    </div>
+    <aside class="col-sm-4">
+      <%- include('./partials/gallery') %>
+    </aside>
+  </div>
+</div>

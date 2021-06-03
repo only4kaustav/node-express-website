@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>An error occured</title>
+    <link
+      href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      id="bootstrap-css"
+    />
+    <link rel="stylesheet" href="/css/error.css" />
+  </head>
+  <body>
+    <div class="d-flex flex-row align-items-center" id="main">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-12 text-center">
+                  <span><a href="/">
+                    <img class="rounded-circle" src="/images/misc/logo.jpg" alt="<%= siteName %>" weight="150" height="150" title="<%= siteName %>">
+                  </a></span>
+                  <div class="mb-4 d-flex justify-content-center align-items-center"><span class="display-4"><strong><%=status%></strong></span> <span class="border-left ml-3 pl-3 font-weight-normal" id="desc"><%=message%><span></div>
+              </div>
+          </div>
+      </div>
+  </div>
+  </body>
+</html>

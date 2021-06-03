@@ -8,8 +8,8 @@ const bodyParser = require('body-parser');
 const FeedbackService = require('./services/FeedbackService');
 const ProductsService = require('./services/ProductService');
 
-const feedbackService = new FeedbackService('./data/feedback.json');
-const productsService = new ProductsService('./data/products.json');
+const feedbackService = new FeedbackService(path.join(__dirname, './data/feedback.json'));
+const productsService = new ProductsService(path.join(__dirname, './data/products.json'));
 
 const routes = require('./routes');
 

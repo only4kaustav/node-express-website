@@ -4,6 +4,7 @@
   "description": "A informative Website with Node.js and Express",
   "main": "app.js",
   "scripts": {
+    "build": "netlify-lambda build express",
     "start": "node server.js",
     "dev": "nodemon --ignore feedback.json server.js"
   },

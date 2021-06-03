@@ -46,12 +46,14 @@ app.use(async (request, response, next) => {
   }
 });
 
-const expessRoutes = app.use(
+const expessRoutes = routes({
+  feedbackService,
+  productsService,
+});
+
+app.use(
   '/',
-  routes({
-    feedbackService,
-    productsService,
-  })
+  expessRoutes
 );
 
 app.use((request, response, next) => {

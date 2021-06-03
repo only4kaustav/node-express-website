@@ -46,7 +46,7 @@ app.use(async (request, response, next) => {
   }
 });
 
-app.use(
+const expessRoutes = app.use(
   '/',
   routes({
     feedbackService,
@@ -71,7 +71,7 @@ app.use((err, request, response, next) => {
   response.render('error');
 });
 
-app.use('/.netlify/functions/server', routes);
+app.use('/.netlify/functions/server', expessRoutes);
 app.use('/', (req, res) => res.sendFile(path.join(__dirname, '../index.html')));
 
 module.exports = app;

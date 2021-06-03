@@ -72,6 +72,7 @@ app.use((err, request, response, next) => {
 });
 
 app.use('/.netlify/functions/server', routes);
+app.use('/', (req, res) => res.sendFile(path.join(__dirname, '../index.html')));
 
 module.exports = app;
 module.exports.handler = serverless(app);
